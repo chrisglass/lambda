@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		096DE72F0E82B90D00ECFB2E /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ImageViewer.nib; sourceTree = "<group>"; };
+		C4D2A00A07FF563C00EDA198 /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		C4D2A00E07FF576900EDA198 /* lambda_osx_ui.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = lambda_osx_ui.py; sourceTree = "<group>"; };
+		C4D2A01307FF5B0900EDA198 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		C4D2A03507FF5BF800EDA198 /* lambda_osx_uiAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = lambda_osx_uiAppDelegate.py; sourceTree = "<group>"; };
+		C4E30E3107FFA7A90043E6B0 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C4D29FE007FF53B000EDA198 = {
+			isa = PBXGroup;
+			children = (
+				C4D2A00607FF55F400EDA198 /* Classes */,
+				C4D2A00507FF55D000EDA198 /* Main Script */,
+				C4D2A00407FF55C400EDA198 /* Resources */,
+				C4D2A01507FF5B3B00EDA198 /* Other Source */,
+			);
+			sourceTree = "<group>";
+		};
+		C4D2A00407FF55C400EDA198 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2A01407FF5B1C00EDA198 /* MainMenu.nib */,
+				096DE72E0E82B90D00ECFB2E /* ImageViewer.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4D2A00507FF55D000EDA198 /* Main Script */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2A00E07FF576900EDA198 /* lambda_osx_ui.py */,
+			);
+			name = "Main Script";
+			sourceTree = "<group>";
+		};
+		C4D2A00607FF55F400EDA198 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2A03507FF5BF800EDA198 /* lambda_osx_uiAppDelegate.py */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C4D2A01507FF5B3B00EDA198 /* Other Source */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2A00A07FF563C00EDA198 /* setup.py */,
+				C4E30E3107FFA7A90043E6B0 /* Info.plist */,
+			);
+			name = "Other Source";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C430F00A07FFB82B00A1CD60 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"$(SOURCE_ROOT)/setup.py\" py2app";
+			buildConfigurationList = 096DE67B0E82ADEF00ECFB2E /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/env;
+			buildWorkingDirectory = "$(SOURCE_ROOT)";
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+		C49FE1AD07FFBCAA005B49ED /* Development */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"$(SOURCE_ROOT)/setup.py\" py2app --alias";
+			buildConfigurationList = 096DE6770E82ADEF00ECFB2E /* Build configuration list for PBXLegacyTarget "Development" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/env;
+			buildWorkingDirectory = /;
+			dependencies = (
+			);
+			name = Development;
+			passBuildSettingsInEnvironment = 1;
+			productName = Development;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		C4D29FE407FF53B000EDA198 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 096DE67F0E82ADEF00ECFB2E /* Build configuration list for PBXProject "lambda_osx_ui" */;
+			hasScannedForEncodings = 0;
+			mainGroup = C4D29FE007FF53B000EDA198;
+			productRefGroup = C4D29FE007FF53B000EDA198;
+			projectDirPath = "";
+			targets = (
+				C49FE1AD07FFBCAA005B49ED /* Development */,
+				C430F00A07FFB82B00A1CD60 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXVariantGroup section */
+		096DE72E0E82B90D00ECFB2E /* ImageViewer.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096DE72F0E82B90D00ECFB2E /* English */,
+			);
+			name = ImageViewer.nib;
+			sourceTree = "<group>";
+		};
+		C4D2A01407FF5B1C00EDA198 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D2A01307FF5B0900EDA198 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		096DE6780E82ADEF00ECFB2E /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		096DE6790E82ADEF00ECFB2E /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+		096DE67A0E82ADEF00ECFB2E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		096DE67C0E82ADEF00ECFB2E /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		096DE67D0E82ADEF00ECFB2E /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+		096DE67E0E82ADEF00ECFB2E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		096DE6800E82ADEF00ECFB2E /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		096DE6810E82ADEF00ECFB2E /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		096DE6820E82ADEF00ECFB2E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096DE6770E82ADEF00ECFB2E /* Build configuration list for PBXLegacyTarget "Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096DE6780E82ADEF00ECFB2E /* Development */,
+				096DE6790E82ADEF00ECFB2E /* Deployment */,
+				096DE67A0E82ADEF00ECFB2E /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		096DE67B0E82ADEF00ECFB2E /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096DE67C0E82ADEF00ECFB2E /* Development */,
+				096DE67D0E82ADEF00ECFB2E /* Deployment */,
+				096DE67E0E82ADEF00ECFB2E /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		096DE67F0E82ADEF00ECFB2E /* Build configuration list for PBXProject "lambda_osx_ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096DE6800E82ADEF00ECFB2E /* Development */,
+				096DE6810E82ADEF00ECFB2E /* Deployment */,
+				096DE6820E82ADEF00ECFB2E /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4D29FE407FF53B000EDA198 /* Project object */;
+}
