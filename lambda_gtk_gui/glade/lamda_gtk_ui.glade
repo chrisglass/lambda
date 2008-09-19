@@ -13,7 +13,7 @@
   <property name="modal">False</property>
   <property name="resizable">True</property>
   <property name="destroy_with_parent">False</property>
-  <property name="icon">lambda_lamb_logo.png</property>
+  <property name="icon">../../images/logo/lambda_lamb_logo.png</property>
   <property name="decorated">True</property>
   <property name="skip_taskbar_hint">False</property>
   <property name="skip_pager_hint">False</property>
@@ -208,6 +208,8 @@
 	      <child>
 		<widget class="GtkImage" id="image2">
 		  <property name="visible">True</property>
+		  <property name="icon_size">4</property>
+		  <property name="icon_name">gtk-apply</property>
 		  <property name="xalign">0.5</property>
 		  <property name="yalign">0.5</property>
 		  <property name="xpad">0</property>
@@ -231,6 +233,8 @@
 	      <child>
 		<widget class="GtkImage" id="image3">
 		  <property name="visible">True</property>
+		  <property name="icon_size">4</property>
+		  <property name="icon_name">gtk-connect</property>
 		  <property name="xalign">0.5</property>
 		  <property name="yalign">0.5</property>
 		  <property name="xpad">0</property>
@@ -254,6 +258,8 @@
 	      <child>
 		<widget class="GtkImage" id="image4">
 		  <property name="visible">True</property>
+		  <property name="icon_size">4</property>
+		  <property name="icon_name">gtk-refresh</property>
 		  <property name="xalign">0.5</property>
 		  <property name="yalign">0.5</property>
 		  <property name="xpad">0</property>
@@ -277,6 +283,8 @@
 	      <child>
 		<widget class="GtkImage" id="image5">
 		  <property name="visible">True</property>
+		  <property name="icon_size">4</property>
+		  <property name="icon_name">gtk-stop</property>
 		  <property name="xalign">0.5</property>
 		  <property name="yalign">0.5</property>
 		  <property name="xpad">0</property>
