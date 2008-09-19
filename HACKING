@@ -1,0 +1,9 @@
+Notes to fellow hackers
+-----------------------
+
+- If you plan to change the glade files in lambda_gtk_ui/glade, remember 
+that Glade (at least version 2.12.2 which I used) has a small glitch - 
+it saves images in $glade/pixmaps but does not create a .glade file with 
+relative paths (actually no path at all!). I created a Fix_images.py 
+file in the glade subdir that will parse and fix the image links when 
+you update them.
